@@ -1,4 +1,4 @@
-# Chrome New Tab Notebook
+# [Chrome New Tab Notebook](https://chrome.google.com/webstore/detail/chrome-new-tab-notebook/jklakdeidljpklncnoijalimnkpmnhmc)
 
 **Chrome extension that overrides Chrome's new tab page with a small notebook.** Inspired by [getpapier.com](https://getpapier.com).
 
