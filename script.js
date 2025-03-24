@@ -1,5 +1,12 @@
 let isLocalChange = false;
 
+// Migrate old notes
+const oldNotes = localStorage.getItem('notes');
+if (oldNotes) {
+  chrome.storage.local.set({ notes: oldNotes });
+  localStorage.removeItem('notes');
+}
+
 // Initialize and Sync Content
 chrome.storage.local.get(['notes'], (result) => {
   document.body.innerHTML = result.notes || '';
